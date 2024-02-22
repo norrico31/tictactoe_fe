@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import { Link, Navigate, useNavigate, useParams } from "react-router-dom";
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 
-const BASE_URL = `https://tictactoe-be-jr76.onrender.com/`
+const BASE_URL = `https://tictactoe-be-jr76.onrender.com`
 
 type Score = {
 	win: number
